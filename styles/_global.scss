@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+$primary: #222bda;
+$big-font: 4rem;
+
+body {
+	background: lightcoral;
+}
+
+@mixin flex($direction, $justify) {
+	display: flex;
+	justify-content: $justify;
+	align-items: center;
+	flex-direction: $direction;
+}
